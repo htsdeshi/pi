@@ -1,5 +1,8 @@
 This code was taken from a different collection and modified to work with the 16x32 panel using a raspberry pi3 with rgb leg matrix hat
 
+The message.py program is for generating a PPM image file from text to be displayed as scrolling text using the led-matrix demo for runtext demo options 1 and 2 for forward or reverse.
+
+
 Connection
 ----------
 You need a seprate power supply for the panel. There is a connector for that
