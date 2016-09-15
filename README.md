@@ -1,24 +1,4 @@
-Controlling RGB LED display with Raspberry Pi GPIO
-==================================================
-
-A library to control commonly available 32x32 or 16x32 RGB LED panels with the
-Raspberry Pi. Can support PWM up to 11Bit per channel, providing true 24bbp
-color with CIE1931 profile (but: see Limitations below).
-
-The LED-matrix library is (c) Henner Zeller <h.zeller@acm.org> with
-GNU General Public License Version 2.0 <http://www.gnu.org/licenses/gpl-2.0.txt>
-
-The example code using this library is released in the public domain.
-
-Overview
---------
-The 32x32 or 16x32 RGB LED matrix panels can be scored at [Sparkfun][sparkfun],
-[AdaFruit][ada] or eBay. If you are in China, I'd try to get them directly
-from some manufacturer, Taobao or Alibaba.
-
-The `RGBMatrix` class provided in `include/led-matrix.h` does what is needed
-to control these. You can use this as a library in your own projects or just
-use the demo binary provided here which provides some useful examples.
+This code was taken from a different collection and modified to work with the 16x32 panel using a raspberry pi3 with rgb leg matrix hat
 
 Connection
 ----------
@@ -363,4 +343,4 @@ the clocking with the needed time-period; that way we get down to 200ns.
 [git-submodules]: http://git-scm.com/book/en/Git-Tools-Submodules
 [emlid-rt]: http://www.emlid.com/raspberry-pi-real-time-kernel-available-for-download/
 [rt-paper]: https://www.osadl.org/fileadmin/dam/rtlws/12/Brown.pdf
-# pi
+
